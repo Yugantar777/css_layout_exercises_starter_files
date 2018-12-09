@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+main{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 0px;
+    margin-bottom: 50%;
+}
+div.block{
+	border: 1px solid black;
+}
+div.first_line{
+	display: inline-block;
+	width: 50%;
+	height: 200px;
+}
+div.second_line{
+	display: inline-block;
+	width: 33.33%;
+	height: 300px;
+}
+div.first{
+	background-color: blue;
+}
+div.second{
+	background-color: red;
+}
+div.third{
+	background-color: grey;
+}
+div.fourth{
+	background-color: black;
+}
+div.fifth{
+	background-color: orange;
+}
