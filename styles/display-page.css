@@ -7,7 +7,7 @@ main{
     margin: auto;
     border: 1px solid black;
     font-size: 0px;
-    margin-bottom: 50%;
+    margin-top: 70px;
 }
 div.block{
 	border: 1px solid black;
@@ -19,14 +19,14 @@ div.first_line{
 }
 div.second_line{
 	display: inline-block;
-	width: 33.33%;
+	width: calc(100%/3);
 	height: 300px;
 }
 div.first{
-	background-color: blue;
+	background-color: green;
 }
 div.second{
-	background-color: red;
+	background-color: blue;
 }
 div.third{
 	background-color: grey;
